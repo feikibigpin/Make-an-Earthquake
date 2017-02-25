@@ -148,7 +148,7 @@ function draw(){
           
        } //CIERRE DEL MAGNITUDE
        else if(magnitude > 7 && magnitude < 8){
-         image(Chile,0,0,windowWidth,windowHeight);
+         image(Chile2,0,0,windowWidth,windowHeight);
          //tap on the arrow
          /*if(touchX >  0  && touchX <  width && touchY > height/2  && touchY < height){   
            image(Cover,0,0,windowWidth,windowHeight);
@@ -203,7 +203,7 @@ function draw(){
     textAlign(CENTER);
     textStyle(BOLD);
     text("EVEN THE STRONGEST",width/2, height - height/2);
-    text("EARTHQUAKE ISN'T!",width/2, height - height/2.2);
+    text("EARTHQUAKE ISN'T",width/2, height - height/2.2);
     text("STRONG AS YOU!",width/2, height - height/2.47);
     
     textFont(fontMetaBold);
